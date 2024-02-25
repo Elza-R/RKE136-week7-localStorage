@@ -7,43 +7,45 @@
 }
 
 html {
-    font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 .container {
-    height: 300px;
-    width: 300px;
-    border: 1px solid rgb(26, 26, 68);
-    border-radius: 5px;
-    margin: 10rem auto;
-    text-align: center;
-    background: linear-gradient(rgba(156, 156, 232, 0.715), rgba(176, 145, 145, 0.732)), 
-    url('../images/1.jpg');
-    background-size: cover;
-    background-position: center;
+  height: 300px;
+  width: 300px;
+  border: 1px solid rgb(26, 26, 68);
+  border-radius: 5px;
+  margin: 10rem auto;
+  text-align: center;
+  background: linear-gradient(
+      rgba(156, 156, 232, 0.715),
+      rgba(176, 145, 145, 0.732)
+    ),
+    url("../images/1.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
-
-.container > input, .container button {
-    display: block;
-    margin: 1rem auto;
+.container > input,
+.container button {
+  display: block;
+  margin: 1rem auto;
 }
-
 
 .container button {
-    width: 5rem;
-    padding: 0.3rem;
-    color: aliceblue;
-    background-color: rgba(52, 52, 81, 0.797);
+  width: 5rem;
+  padding: 0.3rem;
+  color: aliceblue;
+  background-color: rgba(52, 52, 81, 0.797);
 }
 
 .container h3 {
-    margin: 2rem;
-    color: aliceblue;
-    text-transform: capitalize;
+  margin: 2rem;
+  color: aliceblue;
+  text-transform: capitalize;
 }
 
 .container p {
-    color: aliceblue;
-    font-size: 1.5rem;
+  color: aliceblue;
+  font-size: 1rem;
 }
